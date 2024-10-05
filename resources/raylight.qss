@@ -1,0 +1,263 @@
+/*utf-8*/
+/**
+This style library is the company's official style library.
+All PyQt programs should use this file.
+**/
+
+QLabel{
+    border: 0px solid #ffffff;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+}
+
+QComboBox{
+    background-color: rgb(10,10,10);
+    color: #ffffff;
+    border: 0px solid  rgb(10,10,10);
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+}
+
+QScrollArea#FilterWidgetScrollArea {
+    border: 2px solid rgb(10,10,10);
+    border-radius: 4px;
+    background-color: #f5f5f5;
+}
+
+QWidget{
+    background-color: rgb(10,10,10);
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    border: 2px solid  rgb(10,10,10);
+}
+
+/* QPushButton{
+    color:  #ffffff;
+    background-color: #00703D;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+}
+QPushButton:hover, QPushButton:checked{
+    background-color: #ffffff;
+    border: 2px solid  #00703D;
+    color:  #00703D;
+}
+QPushButton:pressed{
+    color:  #000000;
+}
+
+QPushButton {{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}}
+QPushButton {{
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+}}
+QPushButton::icon {{
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    margin-left: -16px;  /* 图标宽度的一半 */
+}}
+QPushButton {{
+    padding-top: 40px;  /* 图标高度 + 一些额外空间 */
+}}
+*/
+QLineEdit{
+    color: #ffffff;
+/*    background-color: #404040;*/
+    border: 2px solid #00703D;
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+}
+
+QGroupBox {
+    border: 2px solid #00703D;
+    border-radius: 4px;
+    margin-top: 20px; /* Title's top margin */
+}
+QGroupBox::title {
+    subcontrol-origin: margin;
+    padding: 0 3px;
+    color: #ffffff; /* Title color */
+}
+
+
+QTreeView{
+    border: none;
+    background-color: #404040;
+    color: #ffffff;
+    border: 2px solid #505050;
+}
+
+QTreeView::item{
+    border: 1px solid #505050;
+    color: #ffffff;
+    font-size: 12px;
+    height: 18px;
+}
+
+QTreeView::item:first{
+    border-left: 2px solid #505050;
+}
+
+QTreeView::item:selected{
+    background-color: #00703D;
+    color: #ffffff;
+}
+
+QHeaderView::section {
+    background-color: #252525; /* 表头背景颜色 */
+    height: 40px;             /* 表头行高 */
+    border: 1px solid #505050; /* 表头边框 */
+    color: #a9a9a9;           /* 表头文字颜色 */
+    font-size: 14px;          /* 表头字体大小 */
+    text-align: center;     /* 表头文字居中 */
+    border-top: none;
+    border-radius: 2px;
+}
+
+QHeaderView::section:first {
+    border-left: none;
+}
+QHeaderView::section:last {
+    border-right: none;
+}
+
+
+
+QScrollBar:vertical {
+    border: none;
+    background: rgb(64, 64, 64); /* 滑块的背景色 */
+    width: 6px; /* 设置滚动条的宽度 */
+}
+
+QScrollBar::handle:vertical {
+    background: #8b8b8b; /* 滑块的颜色 */
+    border-radius: 2px; /* 滑块的圆角 */
+    min-height: 20px; /* 滑块的最小高度，对于垂直滚动条来说 */
+    min-width: 4px; /* 滑块的最小宽度 */
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    border: none;
+    background: transparent;
+    height: 0px; /* 隐藏上下按钮 */
+    width: 0px; /* 隐藏上下按钮 */
+}
+
+QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {
+    background: transparent;
+    border: none;
+    width: 0px; /* 隐藏箭头 */
+    height: 0px; /* 隐藏箭头 */
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: transparent;
+}
+
+QScrollBar:horizontal {
+    border: none;
+    background: rgb(64, 64, 64); /* 滑块的背景色 */
+    height: 6px; /* 滚动条的高度 */
+}
+
+QScrollBar::handle:horizontal {
+    background: #8b8b8b; /* 滑块颜色 */
+    border-radius: 2px; /* 滑块圆角 */
+    min-width: 20px; /* 滑块最小宽度 */
+}
+
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+    border: none;
+    background: transparent;
+    width: 0px; /* 隐藏左右按钮 */
+    height: 0px; /* 隐藏左右按钮 */
+}
+
+QScrollBar::left-arrow:horizontal, QScrollBar::right-arrow:horizontal {
+    background: transparent;
+    border: none;
+    width: 0px; /* 隐藏箭头 */
+    height: 0px; /* 隐藏箭头 */
+}
+
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: transparent; /* 设置页背景为透明 */
+}
+
+
+QMenu::item {
+    padding: 5px 15px 5px 5px; /*上右下左*/
+    spacing: 3px;
+}
+
+QMenu::item:selected {
+    background-color: #00703D;
+    color: #ffffff;
+}
+
+QMenu::right-arrow{
+    height: 10px;
+}
+
+QMenu::separator {
+    height: 2px;
+    background: #505050;
+    margin: 5px 0;
+}
+
+
+
+QTabWidget::pane { /* 内容区的框架 */
+    border:2px solid #00703D; /* 确保与选中的标签背景颜色一致，这里使用 #00703D */
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+QTabWidget::tab-bar {
+    alignment: left; /* 标签对齐到左边 */
+}
+
+QTabBar::tab {
+    background-color: #00703D;
+    color: #FFFFFF;
+    border: none;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 5px;
+    min-width: 80px;
+    margin-right: 2px; /* 标签之间的间隔 */
+}
+
+QTabBar::tab:selected {
+    background-color: #00703D; /* 选中标签背景色 */
+    color: #FFFFFF;
+    border-color: #00703D; /* 选中标签的边框颜色 */
+    border-bottom: 2px solid #00703D; /* 隐藏底部边框使其与内容区融合 */
+}
+
+QTabBar::tab:!selected {
+    background-color: #202020; /* 非选中标签的背景色 */
+    color: #ffffff;
+/*    margin-top: 2px; *//* 使非选中标签看起来稍微下沉 */
+}
+
+
+QRadioButton {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+
+

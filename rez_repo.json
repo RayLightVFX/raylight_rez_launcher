@@ -1,0 +1,33 @@
+{
+    "rez_package_paths": [
+        "\\\\10.6.9.26\\rez\\plugins\\nuke",
+        "\\\\10.6.9.26\\rez\\plugins\\maya",
+        "\\\\10.6.9.26\\rez\\plugins\\katana",
+        "\\\\10.6.9.26\\rez\\plugins\\houdini",
+        "\\\\10.6.9.26\\rez\\plugins\\blender",
+        "\\\\10.6.9.26\\rez\\app",
+        "\\\\10.6.9.26\\rez\\code",
+        "\\\\10.6.9.26\\rez\\pip",
+        "\\\\10.6.9.26\\rez\\pipeline",
+        "\\\\10.6.9.26\\rez\\project"
+    ],
+    "applications": [
+        "maya",
+        "houdini",
+        "hieroplayer",
+        "illustrator",
+        "indesign",
+        "nuke",
+        "nukex",
+        "nukestudio",
+        "photoshop",
+        "prelude",
+        "premiere",
+        "rv",
+        "3ds_max",
+        "after_effects",
+        "cinema_4d",
+        "cinesync",
+        "hiero"
+    ]
+}
